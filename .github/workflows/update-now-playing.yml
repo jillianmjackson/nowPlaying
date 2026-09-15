@@ -20,9 +20,9 @@ jobs:
 
       - name: Fetch currently playing track
         env:
-          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
-          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFYCLIENTID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFYCLIENTSECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFYREFRESHTOKEN }}
         run: node scripts/fetch-now-playing.js
 
       - name: Commit updated now-playing.json
