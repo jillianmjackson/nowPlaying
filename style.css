@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #9F4206;
+  color: #EF91FA;
+  font-family: 'Overpass Mono', monospace;
+  font-weight: 700;
+  letter-spacing: -0.12em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8vh 5vw;
+  text-align: center;
+}
+
+.clock {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  text-decoration: underline;
+}
+
+.now-playing {
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  max-width: 90vw;
+}
