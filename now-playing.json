@@ -1,3 +1,5 @@
 {
-  "isPlaying": false
+  "isPlaying": true,
+  "title": "Emily’s Song",
+  "artist": "Daniel Caesar"
 }
